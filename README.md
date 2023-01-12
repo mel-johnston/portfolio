@@ -1,3 +1,1 @@
-# Modify this portfolio
-
-Make it your own! 
+# [My Portfolio](https://meljohnston-portfolio.netlify.app/)
