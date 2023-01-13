@@ -31,7 +31,7 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
+	height: 100vh;
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
@@ -45,6 +45,17 @@ header {
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
+	background-image: url('../public/images/portfolio/adventure/scotland.jpg');
+}
+.my-name {
+	color: rgb(136, 98, 48) !important;
+	font-size: 2rem;
+	padding-bottom: 600px;
+}
+
+.my-name h1 {
+	color: rgb(136, 98, 48) !important;
+	font-size: 5rem;
 }
 
 header .nav {
@@ -53,11 +64,41 @@ header .nav {
 	letter-spacing: 5px;
 }
 
+.nav-item a {
+	color: rgb(136, 98, 48);
+	font-weight: bold;
+}
 .github-corner:hover .octo-arm {
-	animation:octocat-wave 560ms ease-in-out
+	animation: octocat-wave 560ms ease-in-out
 }
 
-@keyframes octocat-wave {0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}
 
 .language-icon {
 	font-size: 50px;
@@ -383,6 +424,7 @@ header h1 {
 	.portfolio .closeButtonResponsive {
 		display: block;
 	}
+
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
 	}
